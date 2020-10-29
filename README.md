@@ -6,7 +6,8 @@
   1. kakaodev 사이트에서 javascript app key를 받아온다. 
   2. 리액트 프로젝트를 생성한다. $ yarn create react-app hooks-tutorial (cd C:\Users\name\React.js\Medium\hooks-tutorial )
   3. node.js 설치 / git bash 터미널 사용/ visual studio code 편집기 사용
-
+  4. yarn add @material-ui/core, yarn add @material-ui/icons 설치하기 (네비게이션 바의 툴을 만들기 위함)
+  
 
 
 ### 실행 과정
