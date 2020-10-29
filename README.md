@@ -26,3 +26,5 @@
 > src : 리액트 개발이 이루어지는 메인 폴더
 > > components 폴더 -map 폴더 - map.js : 지도 생성 함수( mapscript) , 마커 표시 함수 
 > > components 폴더 -map 폴더 - kakaomap.js : 실제로 카카오맵이 담길 컴포넌트 
+
+###10.29 지도 컨트롤 줌인 , 줌아웃 
