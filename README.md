@@ -3,20 +3,20 @@
 ### 설치할 모듈
 
 
-  1. kakaodev 사이트에서 javascript app key를 받아온다. 
-  2. 리액트 프로젝트를 생성한다. $ yarn create react-app hooks-tutorial (cd C:\Users\name\React.js\Medium\hooks-tutorial )
-  3. node.js 설치 / git bash 터미널 사용/ visual studio code 편집기 사용
-  4. yarn add @material-ui/core, yarn add @material-ui/icons 설치하기 (네비게이션 바의 툴을 만들기 위함)
+    1. kakaodev 사이트에서 javascript app key를 받아온다. 
+    2. 리액트 프로젝트를 생성한다. $ yarn create react-app hooks-tutorial (cd C:\Users\name\React.js\Medium\hooks-tutorial )
+    3. node.js 설치 / git bash 터미널 사용/ visual studio code 편집기 사용
+    4. yarn add @material-ui/core, yarn add @material-ui/icons 설치하기 (네비게이션 바의 툴을 만들기 위함)
   
 
 
 ### 실행 과정
 
 
-1. public 폴더에 index.html 수정
-2. src 폴더에 components 와 page 폴더 생성
-3. src 폴더에 data 폴더 생성 후 에 markderdata.js 파일 생성
-'''
+    1. public 폴더에 index.html 수정
+    2. src 폴더에 components 와 page 폴더 생성
+    3. src 폴더에 data 폴더 생성 후 에 markderdata.js 파일 생성
+
 
 ### 함수 및 파일 설명
 
@@ -31,8 +31,8 @@
 ### 10.29 
 
 
-  1.지도 컨트롤 줌인 , 줌아웃 이벤트 등록하기
-  2.커스텀 마커 생성하기 
-  3.키워드로 장소 검색하고 마커 표시하기
-  4.네비게이션 바, 화면 분할 방법에 대해 알아봄
-   
+    1.지도 컨트롤 줌인 , 줌아웃 이벤트 등록하기
+    2.커스텀 마커 생성하기 
+    3.키워드로 장소 검색하고 마커 표시하기
+    4.네비게이션 바, 화면 분할 방법에 대해 알아봄
+
