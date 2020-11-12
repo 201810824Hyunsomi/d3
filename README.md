@@ -65,4 +65,6 @@
      *componentWillUpdate: 컴포넌트 업데이트 전 실행된다 . 여기서 setstate절대 사용하지 말것
      *componentDidUpdate: 컴포넌트가 리렌더링을 마친 후 실행된다. 여기서 setstate 사용하지 말것
      *componentWillUnmount: 컴포넌트가 dom에서 사라진 후 실행된다.
+     (6) redux 배경지식 mvc, flux
+     
     
