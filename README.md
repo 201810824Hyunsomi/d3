@@ -49,4 +49,20 @@
     (2)작업환경 설정하기 ( -> react project 만드는 도중 webpack  오류 발생.ㅠ , )
     (3)contract 검색기능 구현(input, sort , filter) , contact 선택기능)
     (4)handleclick, change, remove, update 기능 구현
-    (5)
+    (5)component lifecycle api
+    종류 
+    *constructor: 컴포넌트가 처음 만들어질때 실행된다. 기본 state를 설정할 수 있다.
+    constructor(props){
+        super(props);
+        console.log('constructor');
+     }
+     *componentWillMount: 컴포넌트가 dom위에 만들어지기 전에 실행되어 여기엔 dom처리를 할 수없다.
+     *componentDidMount: 첫 렌더링 마치고 실행된다. 이 안에서 다른 자바스크립트 프레임워크 연동 및              setTimeout, setInterval 및 AJAX 사용
+     *componentWillReceiveProps: props를 받을 때 실행된다. props 에 따라 state를 업데이트 할 때 사용하면
+     유용하다.  이 안에서 setstate를 해도 좋다.
+     *shouldComponentUpdate: props/state가 변경되었을 때 리 렌더링을 할지말지 정한다. 실제로 사용할 떈 필요
+     한 비교를 하고 값을 반환한다.
+     *componentWillUpdate: 컴포넌트 업데이트 전 실행된다 . 여기서 setstate절대 사용하지 말것
+     *componentDidUpdate: 컴포넌트가 리렌더링을 마친 후 실행된다. 여기서 setstate 사용하지 말것
+     *componentWillUnmount: 컴포넌트가 dom에서 사라진 후 실행된다.
+    
