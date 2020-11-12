@@ -40,6 +40,10 @@
 
 
     
-    1. 리액트 네비바
+    1. 리액트 네비바 
        :네비바를 부트스트랩을 이용해서 띄웠는데 검색창이 나오면서 사라지는 문제점이 있었음. 검색코드가 index.html에 있으면 안되는 거 같음, 사이드바 네비바를 연습해봐야함 .. (복잡)
-    2. d3 를 react 화면에 띄우기. 
+    2. d3 를 react 화면에 띄우기 
+    3. 리액트 사이드바 참고 문서 https://gaemi606.tistory.com/139
+    4. 리액트 강의 수강 reactjs 개념, jsx특징, props, state, 컴포넌트 매핑 알아보기 
+    작업환경 설정하기 ( -> react project 만드는 도중 webpack  오류 발생.ㅠ , )
+    contract 검색기능 구현(input, sort , filter) , contact 선택기능)
