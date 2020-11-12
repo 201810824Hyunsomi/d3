@@ -66,5 +66,15 @@
      *componentDidUpdate: 컴포넌트가 리렌더링을 마친 후 실행된다. 여기서 setstate 사용하지 말것
      *componentWillUnmount: 컴포넌트가 dom에서 사라진 후 실행된다.
      (6) redux 배경지식 mvc, flux
+     redux가 있으면 store에 반영해서 빨라짐 
+     특징 1. single source of truth (어플리케이션의 state를 위해 단 한개의 store를 사용한다.
+     특징2 . state is read only store의 state를 직접 변경할 수 없다. 변경하기 위해선 무조건 action이 dispatch 되야한다.
+     특징3. changes are made with pure functions: 객체를 처리하는 함수를 reducer라고 한다. reducer는 정보를 받아 상태를 어떻게 업데이트 할지 정한다. 
+     상태객체가 직접 변경되지않고 조각들이 새로운 복사본에 합쳐져 만들어진다.
+     (7) redux action: 
+     redux reducer: 변화를 일으켜야하고 비동기작업x, 인수변경x, 동일한 인수=동일한 결과, 기존상태를 복사하고 변환을 준 다음 반환한다. 
+     
+     redux store
+     redux:react-redux
      
     
