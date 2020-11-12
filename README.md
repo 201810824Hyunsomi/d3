@@ -74,7 +74,8 @@
      (7) redux action: 
      redux reducer: 변화를 일으켜야하고 비동기작업x, 인수변경x, 동일한 인수=동일한 결과, 기존상태를 복사하고 변환을 준 다음 반환한다. 
      
-     redux store
+     redux store: action을 reducer에게 보낸다. redecer가 새 상태를 주면 갈아끼운다. 
+     
      redux:react-redux
      
     
